@@ -1,0 +1,40 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="HandyTerminal.MainWindow"
+        Width="1000"
+        Height="700"
+        Title="Handy Terminal">
+
+    <Grid Margin="10"
+          RowDefinitions="Auto,*,250">
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="+ Add"
+                    Width="100"/>
+        </StackPanel>
+
+
+        <Border Grid.Row="1"
+                Margin="0,10"
+                BorderThickness="1">
+
+            <TextBlock Text="Command Buttons Area"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+
+        </Border>
+
+
+        <Border Grid.Row="2"
+                BorderThickness="1">
+
+            <TextBlock Text="Terminal Area"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+
+        </Border>
+
+
+    </Grid>
+
+</Window>

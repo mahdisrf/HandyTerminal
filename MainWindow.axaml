@@ -18,9 +18,7 @@
                 Margin="0,10"
                 BorderThickness="1">
 
-            <TextBlock Text="Command Buttons Area"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
+            <StackPanel Name="ButtonArea"/>
 
         </Border>
 
@@ -28,9 +26,11 @@
         <Border Grid.Row="2"
                 BorderThickness="1">
 
-            <TextBlock Text="Terminal Area"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
+            <TextBlock Name="TerminalText"
+           Text="Terminal Area"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"/>
+                    
 
         </Border>
 

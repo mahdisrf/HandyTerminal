@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "System",
+    "Buttons": [
+      {
+        "Title": "Update",
+        "Command": "sudo apt update"
+      },
+      {
+        "Title": "Upgrade",
+        "Command": "sudo apt upgrade"
+      }
+    ]
+  }
+]

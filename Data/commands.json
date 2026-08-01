@@ -4,11 +4,23 @@
     "Buttons": [
       {
         "Title": "Update",
-        "Command": "sudo apt update"
+        "Command": "sudo apt update",
+        "RunAsSudo": false
       },
       {
         "Title": "Upgrade",
-        "Command": "sudo apt upgrade"
+        "Command": "sudo apt upgrade",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "s",
+        "Command": "ping iblm.ir",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "New command",
+        "Command": "echo hello",
+        "RunAsSudo": false
       }
     ]
   }

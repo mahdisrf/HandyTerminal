@@ -1,0 +1,40 @@
+# Build outputs
+bin/
+obj/
+
+# Publish artifacts
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Visual Studio cache
+.vs/
+
+# Rider
+.idea/
+
+# generated logs
+*.log
+
+# Linux files
+*.so
+
+# Windows executables and pdbs
+*.exe
+*.dll
+*.pdb
+
+# appimage tool if downloaded accidentally
+tools/
+
+# Temporary files
+*.tmp
+*.temp

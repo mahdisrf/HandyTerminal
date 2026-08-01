@@ -1,25 +1,65 @@
 [
   {
-    "Name": "System",
+    "Name": "secc",
     "Buttons": [
       {
-        "Title": "Update",
+        "Title": "echo hello",
+        "Command": "echo hello",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "echo hello",
+        "Command": "echo hello",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "sudo apt update",
         "Command": "sudo apt update",
         "RunAsSudo": false
       },
       {
-        "Title": "Upgrade",
+        "Title": "sudo apt upgrade",
         "Command": "sudo apt upgrade",
         "RunAsSudo": false
       },
       {
-        "Title": "s",
+        "Title": "ping iblm.ir",
         "Command": "ping iblm.ir",
         "RunAsSudo": false
       },
       {
-        "Title": "New command",
+        "Title": "sudo apt search",
+        "Command": "sudo apt search",
+        "RunAsSudo": false
+      }
+    ]
+  },
+  {
+    "Name": "sys",
+    "Buttons": [
+      {
+        "Title": "echo hello",
+        "Command": "",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "echo hello",
         "Command": "echo hello",
+        "RunAsSudo": false
+      },
+      {
+        "Title": "echo hello",
+        "Command": "echo hello",
+        "RunAsSudo": false
+      }
+    ]
+  },
+  {
+    "Name": "no coomand",
+    "Buttons": [
+      {
+        "Title": "command",
+        "Command": "command",
         "RunAsSudo": false
       }
     ]

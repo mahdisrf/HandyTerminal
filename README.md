@@ -4,8 +4,11 @@ This repository contains `HandyTerminal`, a simple Avalonia-based terminal comma
 ## Download
 
 if you can see this
+
 1- look for Releases on the right side of browser click on it 
+
 2- download the HandyTerminal.v.1.0.0.zip
+
 3- unzip it in your device 
 
 find handytermnal file and run it

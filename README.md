@@ -1,6 +1,8 @@
+
 # HandyTerminal
 
 This repository contains `HandyTerminal`, a simple Avalonia-based terminal command manager.
+<img width="1215" height="976" alt="Screenshot From 2026-08-01 18-02-04" src="https://github.com/user-attachments/assets/70bad535-9013-401b-b098-65d5214cea46" />
 ## Download
 
 if you can see this
